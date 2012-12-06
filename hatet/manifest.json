@@ -1,0 +1,30 @@
+{
+	"BundleType": "Application",
+	"BundleIdentifier": "hatet",
+	"BundleVersion": "0.1b",
+	"AcceptedLinkTypes":[
+		"album",
+		"artist",
+		"track",
+		"playlist",
+		"user"
+	],
+	"AppIcon": {
+		"18x18": "icon.png"
+	},
+	"AppName": {
+		"en": "The Hate"
+	},
+	"AppDescription": {
+		"en": "Spotify hatet is a demo application for the Spotify Apps API."
+	},
+	"SupportedLanguages": [
+		"en"
+	],
+	"RequiredPermissions": [
+		"https://*",
+		"http://*"
+	],
+	"RequiredInterface": "1",
+	"VendorIdentifier": "se.creuna"
+}
