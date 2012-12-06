@@ -1,0 +1,120 @@
+html, body{
+	font-family: "Gotham Bold", Gotham, Helvetica, sans-serif;
+	color: #655871;
+	background-color: #3a3240;
+	text-align: center;
+}
+.clear {
+	clear:both;
+}
+.left {
+	float:left;
+}
+.section {
+	padding:50px;
+}
+.yea{
+	font-size: 24px;
+	font-weight: bold;
+	line-height:30px;
+	margin-bottom:20px;
+}
+#match{
+	color:#913a2d;
+	font-size:92px;
+	font-weight:bold;
+	padding:20px 0 25px;
+}
+#instruction{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 36px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+#playlist{
+	width:70%;
+	margin:50px auto;
+	line-height: auto;
+	font-size: 30px;
+	-webkit-column-count: 2;
+	-webkit-column-gap : 20px;
+	-webkit-column-rule-color:  #332640;
+	-webkit-column-rule-style: solid ;
+	-webkit-column-rule-width:  2px;
+	column-count: 2;
+	column-gap : 20px;
+	column-rule-color:  #332640;
+	column-rule-style: solid ;
+	column-rule-width:  2px;
+}
+#playlist li{
+	padding: 10px;
+	line-height: 25px;
+}
+#now-playing {
+	font-size:24px;
+	margin-bottom:30px;
+	line-height: 32px;
+}
+#now-playing a {
+	color:#eeeeee;
+}
+#player-image {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+#player-image, #player-image .image {
+	float:left;
+	height:128px;
+	width:128px;
+}
+#commands {
+	margin-bottom:30px;
+}
+ul {
+	list-style: disc;
+	margin-left: 20px; 
+}
+a {
+	color:#eeeeee;
+}
+#search-term {
+	width:200px;
+}
+.examples {
+	margin:20px 0;
+}
+#search-results h2 {
+	margin:10px 0 5px;
+	color: #999;
+	font-weight:bold;
+}
+#search-results .sp-player {
+	float:left;
+	margin-right:10px;
+}
+#search-results .add-playlist {
+	margin-top:20px;
+}
+#search-results .sp-list {
+	width:inherit;
+	max-height:inherit;
+}
+#friend-drop {
+	text-align:center;
+	height: 220px;
+	width: 670px;
+	background:#675276;
+	color:#aaaaaa;
+	font-size:16px;
+	margin: 0 auto 10px;
+	background:url(/img/before.gif); 
+
+}
+#friend-title {
+	font-size:24px;
+	margin:10px 0;
+	line-height: 32px;
+	color:#cccccc;
+}
